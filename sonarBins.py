@@ -60,8 +60,8 @@ class sonarBins:
         self.make_baseline(bins)
         self.current_angle = self.start_angle
         if self.debug:
-            print("Initialization Complete!")
-            print(bins)
+            print("[DEBUG] Initialization Complete!")
+            print(self.baseline)
         return bins
     
     # Get median of a bin
