@@ -2,7 +2,7 @@ import time
 
 
 class sonarBins:
-    def __init__(self, move, read, alert, bins=60, step=2, start_angle=0, end_angle=180, error_margin=0.15, error_ratio=0.6, delay=0.05, debug=False):
+    def __init__(self, move, read, alert, bins=60, step=2, start_angle=0, end_angle=180, error_margin=0.15, error_ratio=0.6, delay=0.002, debug=False):
         self.move = move
         self.read = read
         self.alert = alert
